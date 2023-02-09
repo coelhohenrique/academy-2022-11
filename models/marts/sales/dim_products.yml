@@ -1,0 +1,78 @@
+version: 2
+
+models:
+  - name: dim_products
+    description: Dimensão com informação de produtos com categorias e fornecedores
+    columns:
+      - name: sk_product
+        description: Primary key da dimensão de produtos
+        tests:
+          - unique
+          - not_null
+          
+  - name: id_product
+    description: Finalizar documentação.
+
+  - name: id_supplier
+    description: Finalizar documentação.
+
+  - name: id_category
+    description: Finalizar documentação.
+
+  - name: product_name
+    description: Finalizar documentação.
+
+  - name: quantity_per_unit
+    description: Finalizar documentação.
+
+  - name: unit_price
+    description: Finalizar documentação.
+
+  - name: units_in_stock
+    description: Finalizar documentação.
+
+  - name: units_on_order
+    description: Finalizar documentação.
+
+  - name: reorder_level
+    description: Finalizar documentação.
+
+  - name: is_discontinued
+    description: Finalizar documentação.
+
+  - name: category_name
+    description: Finalizar documentação.
+
+  - name: description
+    description: Finalizar documentação.
+
+  - name: supplier_name
+    description: Finalizar documentação.
+
+  - name: supplier_contact_name
+    description: Finalizar documentação.
+
+  - name: contact_title
+    description: Finalizar documentação.
+
+  - name: address
+    description: Finalizar documentação.
+
+  - name: postal_code
+    description: Finalizar documentação.
+
+  - name: city
+    description: Finalizar documentação.
+
+  - name: region
+    description: Finalizar documentação.
+
+  - name: country
+    description: Finalizar documentação.
+
+  - name: fax
+    description: Finalizar documentação.
+
+  - name: phone
+    description: Finalizar documentação.
+    
