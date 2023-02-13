@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: fct_sales
+    description: Tabela de fato vendas
+    columns:
+      - name: sk_sales
+        description: Foreing e primary key da dimensão produto
+        tests:
+          - unique
+          - not_null
+          
