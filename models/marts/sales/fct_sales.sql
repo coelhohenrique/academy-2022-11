@@ -57,6 +57,7 @@ with
     , transformations as (
         select 
         *
+        , id_order || '-' || fk_product as sk_sales
         , unit_price * quantity as gross_income
         ,  (1 - discount) * unit_price * quantity as net_revenue
 
