@@ -25,4 +25,13 @@ sources:
 
       - name: shippers
         description: Inserir descrição!.
+
+      - name: order_details
+        description: Inserir descrição!.
+
+      - name: employees
+        description: Inserir descrição!.
+
+      - name: customers
+        description: Inserir descrição!.
       
